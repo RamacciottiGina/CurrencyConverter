@@ -1,0 +1,169 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1240,1402" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="568,1337" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="vDtbCurrencies" />
+      <Variable x:TypeArguments="x:String" Name="vStrCurrency" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Currencies" sap:VirtualizedContainerService.HintSize="506,171" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:BuildDataTable DataTable="[vDtbCurrencies]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="388,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;currency&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;currency&gt;USD_BRL&lt;/currency&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;currency&gt;USD_ARS&lt;/currency&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;currency&gt;USD_CLP&lt;/currency&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;currency&gt;USD_PEN&lt;/currency&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;currency&gt;USD_PYG&lt;/currency&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+    </Sequence>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Currency Calculator | currency-calc.com" sap:VirtualizedContainerService.HintSize="506,1015" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="bb0ff11f-3cfc-4460-90bb-785bc8a02d06" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="472,798" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbCurrencies]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="410,683" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,497" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="334,82" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[&quot;https://currency-calc.com/&quot;+CurrentRow(&quot;currency&quot;).ToString]" Version="V3" />
+                    <uix:NGetText DisplayName="Get Text Currency" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="bb0ff11f-3cfc-4460-90bb-785bc8a02d06" TextString="[vStrCurrency]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://currency-calc.com/" DesignTimeRectangle="589, 457, 278, 48" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'1.09'" FullSelectorArgument="&lt;webctrl class='currency-field-result-number' parentid='server-render-control-string' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='currency-field-result-number' parentid='server-render-control-string' tag='DIV' type='' /&gt;" Guid="1b24d01d-3cbf-4f21-abbd-a900dbd5fcaa" InformativeScreenshot="dcaa360de43b731e96ecadd433e60585.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Currency Calculator | currency-calc.com' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="539, 449, 28, 28" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;img' parentid='server-render-control-string' src='/img/lap.svg' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='server-render-control-string' src='/img/lap.svg' tag='IMG' class='' aaname='' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[CurrentRow(&quot;currency&quot;).ToString+ &quot;: &quot;+ vStrCurrency]" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 784" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="323b79a4678ffcff76808068889c9f1c.jpg" Selector="&lt;html app='chrome.exe' title='Currency Calculator | currency-calc.com' /&gt;" Title="Currency Calculator | currency-calc.com" Url="https://currency-calc.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
